@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#09251d">
+<title>JG Natalino | Evento especial</title>
+<style>
+:root{--bg:#071d17;--green:#103c2d;--green2:#18553d;--red:#a92735;--gold:#f3d27b;--cream:#fff8e9;--muted:#c7d9ce}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#236344,#0b3024 48%,#061912 100%);color:var(--cream);font-family:Arial,sans-serif;min-height:100vh}button,input{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:12px 16px;font-weight:700}button:focus-visible,input:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.primary{background:linear-gradient(135deg,#e4b84f,#ffe7a3);color:#39290c}.red{background:var(--red);color:white}.soft{background:#ffffff13;color:var(--cream);border:1px solid #ffffff30}.wrap{width:min(1080px,94%);margin:auto}.top{padding:22px 0 12px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{font: bold 22px Georgia,serif;color:var(--gold)}.brand span{color:white}.pill{border:1px solid #f3d27b66;border-radius:99px;padding:8px 12px;font-size:12px;color:var(--gold)}.hero{text-align:center;padding:36px 12px 25px}.kicker{font-size:11px;letter-spacing:4px;color:var(--gold);text-transform:uppercase}.hero h1{font: bold clamp(40px,8vw,76px) Georgia,serif;margin:12px 0;color:#fff0c9;text-shadow:0 4px #78202a,0 0 24px #f3d27b55}.hero p{color:var(--muted);max-width:650px;margin:0 auto;line-height:1.6}.tree{font-size:58px}.nav{display:flex;gap:8px;overflow:auto;padding:10px 0 16px}.nav button{white-space:nowrap;background:#ffffff12;color:var(--muted);border:1px solid #ffffff20}.nav button.active{background:var(--gold);color:#33250b}.view{display:none}.view.active{display:block}.card{background:linear-gradient(145deg,#164b38ed,#0c2d23ed);border:1px solid #f3d27b55;border-radius:20px;padding:20px;margin:12px 0;box-shadow:0 14px 35px #0003}.card h2{font: bold 27px Georgia,serif;color:var(--gold);margin:0 0 8px}.muted{color:var(--muted);font-size:14px;line-height:1.55}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.tile{background:#ffffff0d;border:1px solid #f3d27b55;border-radius:16px;padding:18px;text-align:center}.tile .ico{font-size:42px}.tile h3{color:var(--gold);margin:8px 0}.tile p{font-size:13px;color:var(--muted);min-height:38px}.field{width:100%;background:#08251d;color:white;border:1px solid #f3d27b77;padding:13px;border-radius:12px;margin:8px 0 12px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#08251d88;border-radius:14px;padding:12px;text-align:center}.stat b{display:block;color:var(--gold);font-size:24px}.stat small{color:var(--muted);text-transform:uppercase;font-size:10px;letter-spacing:1px}.huntgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.hunt{font-size:34px;min-height:80px;background:linear-gradient(145deg,#b52c3a,#781e29);color:white;border:1px solid #f3d27b88}.hunt.found{background:#e8d18b;color:#25402e}.answers{display:grid;gap:8px}.answers button{text-align:left;background:#ffffff12;color:white;border:1px solid #ffffff2a}.answers button:disabled{opacity:.8}.wheel{width:210px;height:210px;border-radius:50%;border:8px solid var(--gold);margin:16px auto;background:conic-gradient(#b52c3a 0 25%,#e4bd58 25% 50%,#176044 50% 75%,#f7e8c5 75%);display:grid;place-items:center;font-size:55px;box-shadow:0 0 0 4px #71451d;transition:transform 2s cubic-bezier(.15,.75,.12,1)}.center{text-align:center}.rank{list-style:none;padding:0}.rank li{display:flex;justify-content:space-between;padding:11px;border-bottom:1px solid #ffffff20;color:var(--muted)}.rank b{color:var(--gold)}.notice{border:1px dashed #f3d27b77;padding:13px;border-radius:13px;color:var(--muted);font-size:12px;line-height:1.5}.result{color:var(--gold);font-weight:bold;min-height:25px}.footer{text-align:center;color:#b7cbbd;font-size:12px;padding:30px 0}.snow{position:fixed;top:-15px;color:white;pointer-events:none;z-index:9;animation:fall linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(320deg);opacity:.1}}.hidden{display:none!important}
+@media(max-width:650px){.grid{grid-template-columns:1fr}.tile p{min-height:0}.top{align-items:flex-start}.huntgrid{grid-template-columns:repeat(3,1fr)}.hero{padding-top:25px}.card{padding:16px}.stats{gap:6px}.stat{padding:9px 4px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top"><div class="brand">🎄 <span>JG</span> NATALINO</div><div class="pill">✦ EVENTO ESPECIAL ✦</div></header>
+<section class="hero"><div class="tree">🎄</div><div class="kicker">Diversão • desafios • espírito natalino</div><h1>JG Natalino</h1><p>Entre no clima, participe dos desafios, abra presentes e tente conquistar o topo do ranking. A magia começa aqui!</p></section>
+<nav class="nav" aria-label="Navegação do site">
+<button class="active" data-view="inicio">🏠 Início</button><button data-view="jogos">🎮 Jogos</button><button data-view="ranking">🏆 Ranking</button><button data-view="premios">🎁 Premiação</button><button data-view="perfil">⭐ Jogador</button>
+</nav>
+
+<section class="view active" id="inicio">
+<div class="card"><h2>Bem-vindo(a) ao JG Natalino!</h2><p class="muted">Um evento online para reunir os amigos em uma competição divertida de Natal. Escolha seu apelido, participe dos minijogos e acumule pontos.</p><div class="grid">
+<div class="tile"><div class="ico">🎁</div><h3>Caça aos presentes</h3><p>Encontre as caixas premiadas escondidas.</p><button class="primary go" data-target="jogos">Jogar</button></div>
+<div class="tile"><div class="ico">❄️</div><h3>Quiz natalino</h3><p>Teste seus conhecimentos sobre o Natal.</p><button class="primary go" data-target="jogos">Responder</button></div>
+<div class="tile"><div class="ico">🎡</div><h3>Roleta da sorte</h3><p>Gire e descubra quantos pontos ganhou.</p><button class="primary go" data-target="jogos">Girar</button></div>
+</div></div>
+<div class="card"><h2>📜 Regras do evento</h2><p class="muted">• Escolha um apelido respeitoso.<br>• Complete os três desafios.<br>• Jogue de forma justa e respeite os outros participantes.<br>• A pontuação exibida nesta versão fica salva no navegador usado para jogar.</p></div>
+</section>
+
+<section class="view" id="jogos">
+<div class="card"><h2>🎮 Central de jogos</h2><p class="muted">Escolha um desafio. Seus pontos aparecem no painel abaixo.</p><div class="stats"><div class="stat"><b id="score">0</b><small>Pontos</small></div><div class="stat"><b id="giftsCount">0/6</b><small>Presentes</small></div><div class="stat"><b id="tasks">0/3</b><small>Desafios</small></div></div></div>
+<div class="card"><h2>🎁 Caça aos presentes</h2><p class="muted">Toque nas caixas para encontrar os seis presentes especiais. Cada acerto vale 10 pontos.</p><div class="huntgrid" id="huntgrid"></div><p class="result" id="huntresult" aria-live="polite">Boa sorte na busca!</p></div>
+<div class="card"><h2>❄️ Quiz natalino</h2><p class="muted" id="question">Responda e ganhe 15 pontos por acerto.</p><div class="answers" id="answers"></div><p class="result" id="quizresult" aria-live="polite"></p></div>
+<div class="card center"><h2>🎡 Roleta da sorte</h2><p class="muted">Uma rodada por partida. Gire para ganhar pontos extras!</p><div class="wheel" id="wheel">🎅</div><button class="primary" id="spin">Girar roleta</button><p class="result" id="wheelresult" aria-live="polite"></p></div>
+</section>
+
+<section class="view" id="ranking">
+<div class="card"><h2>🏆 Ranking dos participantes</h2><p class="muted">Os melhores resultados registrados neste navegador aparecem aqui.</p><ol class="rank" id="ranklist"><li>Jogue para aparecer no placar!</li></ol><div class="notice">O ranking compartilhado entre todos os celulares ainda precisa de um banco de dados online. Esta versão demonstra o site e salva os resultados localmente em cada navegador.</div></div>
+</section>
+
+<section class="view" id="premios">
+<div class="card"><h2>🎁 Premiação natalina</h2><p class="muted">Uma área para anunciar os destaques e as recompensas do evento.</p><div class="grid">
+<div class="tile"><div class="ico">🥇</div><h3>1º lugar</h3><p>Campeão ou campeã do JG Natalino.</p></div>
+<div class="tile"><div class="ico">🥈</div><h3>2º lugar</h3><p>Vice-campeão ou vice-campeã.</p></div>
+<div class="tile"><div class="ico">🥉</div><h3>3º lugar</h3><p>Terceiro lugar no evento.</p></div>
+</div><p class="notice">Você pode editar esta área para informar os prêmios reais. Não prometa recompensas que ainda não foram definidas.</p></div>
+</section>
+
+<section class="view" id="perfil">
+<div class="card"><h2>⭐ Área do jogador</h2><p class="muted">Digite seu apelido. Ele será usado nesta partida e no placar local.</p><label for="nickname">Apelido</label><input class="field" id="nickname" maxlength="16" placeholder="Ex.: EstrelaDeNatal"><button class="primary" id="saveName">Salvar apelido</button><p class="result" id="profileResult"></p><div class="notice">Por segurança, use apenas um apelido. Não coloque nome completo, telefone, endereço, escola ou outras informações pessoais.</div></div>
+<div class="card"><h2>🔗 Compartilhe o evento</h2><p class="muted">Depois de publicar o site, copie o endereço e envie no grupo ou no privado dos amigos.</p><button class="red" id="share">Compartilhar site</button><p class="small" id="shareNote"></p></div>
+</section>
+<footer class="footer">Feito com ❤️ para espalhar a magia do Natal • JG Natalino</footer>
+</div>
+<script>
+const $=id=>document.getElementById(id);let player=localStorage.getItem("jgn-player")||"",score=0,found=0,opened=new Set(),completed=new Set(),q=0,quizDone=false,spun=false,rotation=0;
+const questions=[{q:"Qual rena é conhecida pelo nariz vermelho?",a:["Rudolph","Cometa","Cupido"],c:0},{q:"Em qual data é comemorado o Natal?",a:["1º de janeiro","25 de dezembro","31 de outubro"],c:1},{q:"O que costuma ficar no topo da árvore?",a:["Uma estrela","Uma meia","Um chapéu"],c:0},{q:"Quem entrega presentes na tradição natalina?",a:["Coelhinho","Papai Noel","Saci"],c:1}];
+function update(){ $("score").textContent=score;$("giftsCount").textContent=found+"/6";$("tasks").textContent=completed.size+"/3"}
+function award(n){score+=n;update()}
+function switchView(id){document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id===id));document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===id));window.scrollTo({top:0,behavior:"smooth"})}
+document.querySelectorAll("[data-view]").forEach(b=>b.onclick=()=>switchView(b.dataset.view));
+document.querySelectorAll(".go").forEach(b=>b.onclick=()=>switchView(b.dataset.target));
+function safe(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function renderRank(){let a=[];try{a=JSON.parse(localStorage.getItem("jgn-scores")||"[]")}catch(e){}$("ranklist").innerHTML=a.length?a.map((v,i)=>`<li><span>${["🥇","🥈","🥉"][i]||"⭐"} ${safe(v.name)}</span><b>${v.score} pts</b></li>`).join(""):"<li>Jogue para aparecer no placar!</li>"}
+function saveResult(){if(!player)return;let a=[];try{a=JSON.parse(localStorage.getItem("jgn-scores")||"[]")}catch(e){}a.push({name:player,score});a.sort((x,y)=>y.score-x.score);localStorage.setItem("jgn-scores",JSON.stringify(a.slice(0,10)));renderRank()}
+function checkFinish(){if(completed.size===3){saveResult();$("profileResult").textContent="Partida concluída! Resultado salvo neste aparelho."}}
+function buildHunt(){let g=$("huntgrid");g.innerHTML="";for(let i=0;i<12;i++){let b=document.createElement("button");b.className="hunt";b.textContent="🎁";b.setAttribute("aria-label","Caixa surpresa");b.onclick=()=>{if(opened.has(i))return;opened.add(i);if(i<6){b.textContent=["⭐","🔔","🍬","🧸","🕯️","🎄"][i];b.classList.add("found");found++;award(10);$("huntresult").textContent="Presente encontrado! +10 pontos ✨"}else{b.textContent="🧦";b.classList.add("found");$("huntresult").textContent="Caixa vazia! Tente outra."}if(found===6&&!completed.has("hunt")){completed.add("hunt");$("huntresult").textContent="Todos os presentes encontrados! Desafio concluído!";update();checkFinish()}};g.appendChild(b)}}
+function showQuestion(){if(q>=questions.length){quizDone=true;completed.add("quiz");$("question").textContent="Quiz concluído! Parabéns por participar."; $("answers").innerHTML="";update();checkFinish();return}let x=questions[q];$("question").textContent=`Pergunta ${q+1}/${questions.length}: ${x.q}`;$("answers").innerHTML="";x.a.forEach((t,i)=>{let b=document.createElement("button");b.textContent=t;b.onclick=()=>{[...$("answers").children].forEach(z=>z.disabled=true);if(i===x.c){award(15);$("quizresult").textContent="Resposta certa! +15 pontos 🎉"}else{$("quizresult").textContent="Quase! A resposta era: "+x.a[x.c]}setTimeout(()=>{q++;showQuestion()},850)};$("answers").appendChild(b)})}
+$("spin").onclick=()=>{if(spun)return;spun=true;$("spin").disabled=true;let p=[5,10,15,20][Math.floor(Math.random()*4)];rotation+=1440+Math.random()*360;$("wheel").style.transform=`rotate(${rotation}deg)`;setTimeout(()=>{award(p);$("wheelresult").textContent=`Você ganhou ${p} pontos!`;completed.add("wheel");update();checkFinish()},2050)};
+$("saveName").onclick=()=>{let n=$("nickname").value.trim().slice(0,16);if(!n){$("profileResult").textContent="Digite um apelido primeiro.";return}player=n;localStorage.setItem("jgn-player",player);$("profileResult").textContent="Apelido salvo! Boa sorte no jogo."};
+$("nickname").value=player;
+$("share").onclick=async()=>{let url=location.href;if(navigator.share){try{await navigator.share({title:"JG Natalino",text:"Vem participar do JG Natalino! 🎄",url})}catch(e){}}else if(navigator.clipboard){await navigator.clipboard.writeText(url);$("shareNote").textContent="Link copiado!";}else{$("shareNote").textContent="Copie o endereço do navegador para compartilhar."}};
+function snow(){let s=document.createElement("span");s.className="snow";s.textContent=["❄","❅","·"][Math.floor(Math.random()*3)];s.style.left=Math.random()*100+"vw";s.style.fontSize=(10+Math.random()*13)+"px";let d=7+Math.random()*7;s.style.animationDuration=d+"s";document.body.appendChild(s);setTimeout(()=>s.remove(),d*1000)}
+setInterval(snow,300);buildHunt();showQuestion();update();renderRank();
+</script>
+</body></html>
